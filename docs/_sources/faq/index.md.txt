@@ -173,6 +173,8 @@ Mac:
 
 在用户目录/log下：
 
-![img](https://docimg6.docs.qq.com/image/OcM1_U7tZfDxIcvyK8DkWQ?w=1378&h=584)
+![](https://cdn.jsdelivr.net/gh/ravenxrz/PicBed/img/OcM1_U7tZfDxIcvyK8DkWQ.png)
+
+
 
 选择当天日期的log文件发送给我。
