@@ -1,0 +1,388 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="zh-CN" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>1. 问题汇总 &mdash; RubberTranslator使用文档  文档</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/translations.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="索引" href="../genindex.html" />
+    <link rel="search" title="搜索" href="../search.html" />
+    <link rel="next" title="v3.4.1 for mac" href="../changelogs/index.html" />
+    <link rel="prev" title="1. OCR" href="../config/index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> RubberTranslator使用文档
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">序言</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../preface/index.html">一点体验</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../preface/index.html#id2">为何制作</a></li>
+</ul>
+<p class="caption"><span class="caption-text">功能介绍</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../features/index.html">0. 视频介绍</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../features/index.html#id2">1. 基础功能</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../features/index.html#id16">2. 高级设置</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../features/index.html#id22">3. 开源许可</a></li>
+</ul>
+<p class="caption"><span class="caption-text">使用配置</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../config/index.html">1. OCR</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../config/index.html#id1">2. 百度翻译配置</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../config/index.html#id2">3.  有道翻译配置</a></li>
+</ul>
+<p class="caption"><span class="caption-text">常见问题</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">1. 问题汇总</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id2">1.1 如何安装/卸载本软件？</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id3">1.2 如何启动本软件？</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id4">1.3 为什么不能实现像视频中说的自动翻译？</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#qqocr">1.4 可以使用QQ截图或者微信截图实现OCR吗？</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#ocr">1.5 截图了，为什么OCR没反应？</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id5">1.6 为什么不能使用百度翻译和有道翻译？</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id6">1.7 谷歌翻译无法使用？</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id7">1.8 如何设置字体大小，背景颜色？</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id8">1.9 如何批量导入词组？</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id9">1.10 如何手动更新？</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="#id10">2. 私聊我</a></li>
+</ul>
+<p class="caption"><span class="caption-text">更新日志</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../changelogs/index.html">v3.4.1 for mac</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../changelogs/index.html#v3-4-0">v3.4.0</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../changelogs/index.html#v3-3-4">v3.3.4</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../changelogs/index.html#v3-3-3">v3.3.3</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../changelogs/index.html#v3-3-2-for-mac">v3.3.2 for mac</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../changelogs/index.html#v3-3-2">v3.3.2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../changelogs/index.html#v3-3-1">v3.3.1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../changelogs/index.html#v3-2-1-for-linux">v3.2.1 for linux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../changelogs/index.html#v3-2-1-beta">v3.2.1-beta</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../changelogs/index.html#v3-2-0-beta">v3.2.0-beta</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../changelogs/index.html#v3-1-0">v3.1.0</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../changelogs/index.html#v3-0-1">v3.0.1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../changelogs/index.html#v3-0-0">v3.0.0</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../changelogs/index.html#v3-0-0-beta2">v3.0.0-beta2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../changelogs/index.html#v3-0-0-beta1">v3.0.0-beta1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../changelogs/index.html#v2-0-0">v2.0.0</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../changelogs/index.html#v1-1-1">v1.1.1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../changelogs/index.html#v1-1-0">v1.1.0</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../changelogs/index.html#v1-0-0">v1.0.0</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../changelogs/index.html#v0-2-0-pre-release">v0.2.0 pre-release</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../changelogs/index.html#v0-1-0">v0.1.0</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">RubberTranslator使用文档</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>1. 问题汇总</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            
+              <a href="https://github.com/RubberTranslator/RubberTranslator.github.io/blob/master/docs_src/faq/index.md" class="fa fa-github"> Edit on GitHub</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <p>如果在使用过程中遇到任何问题，请<strong>一定</strong>在提问前，认真阅读本文档。</p>
+<div class="section" id="id1">
+<h1>1. 问题汇总<a class="headerlink" href="#id1" title="永久链接至标题">¶</a></h1>
+<div class="section" id="id2">
+<h2>1.1 如何安装/卸载本软件？<a class="headerlink" href="#id2" title="永久链接至标题">¶</a></h2>
+<p>Win和Linux用户：</p>
+<p>安装：本软件无需安装，在Github或蓝奏云下载压缩包，解压到<strong>任意无中文路径</strong>即可。</p>
+<p>卸载: 删除解压包即可。</p>
+<p>Mac用户：</p>
+<p>安装：</p>
+<p><strong>请一定提前打开允许任意安装来源</strong>，如下：</p>
+<p><img alt="img" src="https://cdn.jsdelivr.net/gh/ravenxrz/PicBed/img/rC1uw2kSIwh2DWmJpm-QUQ" /></p>
+<p>打开方法：</p>
+<p>打开终端，执行</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">spctl</span> <span class="o">--</span><span class="n">master</span><span class="o">-</span><span class="n">disable</span>
+</pre></div>
+</div>
+<p><img alt="img" src="https://cdn.jsdelivr.net/gh/ravenxrz/PicBed/img/JicS0XJIt7g2cj-aZl9Jvw" /></p>
+<p>然后下载dmg镜像，拖动RT到应用程序中即可。</p>
+<p>卸载：</p>
+<p>常规卸载方法即可。</p>
+<p>下载地址：</p>
+<p>Github：https://github.com/ravenxrz/RubberTranslator/releases</p>
+<p>蓝奏云：https://ravenxrz.lanzous.com/b01bezbcf</p>
+</div>
+<div class="section" id="id3">
+<h2>1.2 如何启动本软件？<a class="headerlink" href="#id3" title="永久链接至标题">¶</a></h2>
+<p>Windows端：点击解压包下的 Launcher.exe 即可。注意，如果解压在C盘，请使用管理员权限运行,其他盘则不需要。</p>
+<p><img alt="img" src="https://cdn.jsdelivr.net/gh/ravenxrz/PicBed/img/nxCzlN2323xD64vuCdloSQ" /></p>
+<p>如果给予管理员权限？</p>
+<p>右键，然后：</p>
+<p><img alt="img" src="https://cdn.jsdelivr.net/gh/ravenxrz/PicBed/img/zCQjBkeoLj0_56En7E_U1A" /></p>
+<p>Linux端：使用终端进入bin目录下，然后运行Launcher即可。注意，如果没有可执行权限，请给予, 使用命令 chmod +x Launcher</p>
+<p>Mac端：</p>
+<p>找到RT图标，点击启动，<strong>并给予辅助功能权限。</strong></p>
+</div>
+<div class="section" id="id4">
+<h2>1.3 为什么不能实现像视频中说的自动翻译？<a class="headerlink" href="#id4" title="永久链接至标题">¶</a></h2>
+<p>确保基础设置中的**“拖拽复制”<strong>和</strong>“监听剪切板”**两个选项都已经打开。</p>
+</div>
+<div class="section" id="qqocr">
+<h2>1.4 可以使用QQ截图或者微信截图实现OCR吗？<a class="headerlink" href="#qqocr" title="永久链接至标题">¶</a></h2>
+<p>可以使用任意截图软件，只要截图后保存在剪切板中即可，对于QQ截图，截图后点击√即可。</p>
+<p>mac用户推荐使用snipaste，如果使用QQ截图，可能会出现 #fffxxx之类的文字, 这是因为QQ自带了取色器功能，这个功能和”拖拽复制”有点冲突。</p>
+</div>
+<div class="section" id="ocr">
+<h2>1.5 截图了，为什么OCR没反应？<a class="headerlink" href="#ocr" title="永久链接至标题">¶</a></h2>
+<p>OCR需要自己手动配置，具体请参考：https://www.ravenxrz.ink/archives/2d8a0c3e.html</p>
+<p>如果成功配置，在高级设置-&gt;Key&amp;Secert设置-&gt;OCR中可以看到类似如图的界面：</p>
+<p><img alt="img" src="https://cdn.jsdelivr.net/gh/ravenxrz/PicBed/img/N-4dcv75fhRd_QKsbbi-sg" /></p>
+</div>
+<div class="section" id="id5">
+<h2>1.6 为什么不能使用百度翻译和有道翻译？<a class="headerlink" href="#id5" title="永久链接至标题">¶</a></h2>
+<p>百度翻译和有道翻译需要自己手动配置，具体请参考：https://www.ravenxrz.ink/archives/2d8a0c3e.html</p>
+</div>
+<div class="section" id="id6">
+<h2>1.7 谷歌翻译无法使用？<a class="headerlink" href="#id6" title="永久链接至标题">¶</a></h2>
+<p>有极少数同学会出现无法使用谷歌翻译，这种情况一般是因为你所在的校园网络无法访问谷歌翻译。打开浏览器，访问 <a class="reference external" href="https://translate.google.cn/">https://translate.google.cn/ </a> ，如果不能打开，说明你的网络无法确实无法访问。解决方法为切换电脑网络，如开手机热点给笔记本电脑使用。或者手动配置百度翻译或者有道翻译。</p>
+</div>
+<div class="section" id="id7">
+<h2>1.8 如何设置字体大小，背景颜色？<a class="headerlink" href="#id7" title="永久链接至标题">¶</a></h2>
+<p>设置字体大小略微复杂，首先在RubberTranslator/config目录下新建style.css文件，打开该文件，填入：</p>
+<div class="highlight-css notranslate"><div class="highlight"><pre><span></span><span class="p">#</span><span class="nn">main</span> <span class="p">{</span>	
+	<span class="c">/* 主界面相关设置 */</span>
+    <span class="nv">-fx-font-size</span><span class="p">:</span> <span class="mi">10</span><span class="kt">pt</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="p">#</span><span class="nn">focus</span><span class="p">{</span>
+	<span class="c">/* 专注界面相关设置 */</span>
+	<span class="nv">-fx-font-size</span><span class="p">:</span> <span class="mi">10</span><span class="kt">pt</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="p">#</span><span class="nn">compare</span><span class="p">{</span>
+	<span class="c">/* 对比界面相关设置 */</span>
+	<span class="nv">-fx-font-size</span><span class="p">:</span> <span class="mi">10</span><span class="kt">pt</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="p">.</span><span class="nc">text-area</span> <span class="p">{</span>
+	<span class="c">/* 文本区相关设置 */</span>
+	<span class="c">/* -fx-font-size: 10pt; */</span>
+<span class="p">}</span>
+
+<span class="p">.</span><span class="nc">text-area</span> <span class="p">.</span><span class="nc">content</span><span class="p">{</span>
+	<span class="c">/* 文本区背景颜色 */</span>
+    <span class="c">/* -fx-background-color: rgb(199,237,204); */</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>修改相应的font-size, 打开RubberTranslator，高级设置-&gt;自定义样式，在弹出的选择框中选择刚才新建的style.css文件。 最后重启软件即可。</p>
+<p><strong>注意：每次修改style.css文件后，都需要重启软件； v3.2.1及其之前版本不支持compare标识修改；</strong></p>
+</div>
+<div class="section" id="id8">
+<h2>1.9 如何批量导入词组？<a class="headerlink" href="#id8" title="永久链接至标题">¶</a></h2>
+<p>如果你有大量词组需要导入，一条条输入是非常慢的，此时可以使用 “批量导入” 功能，如下：</p>
+<p><img alt="img" src="https://cdn.jsdelivr.net/gh/ravenxrz/PicBed/img/2oDX9LBI7mTbYwYES27m4g" /></p>
+<p>选中一个 txt 文件，这个 txt 文件存放的就是你的词组文件，具体格式为：</p>
+<p>译文：替换文</p>
+<p>每行一个词组。如：</p>
+<p><img alt="img" src="https://cdn.jsdelivr.net/gh/ravenxrz/PicBed/img/570GuuSJQ_b-wa48qB2Qbw" />代表两个词组，将缓存线替换为 cacheline, 将商店替换为 store。</p>
+<p>另外，如果重复选择一个 txt 文件，添加可能会看到重复行，如：<img alt="img" src="https://cdn.jsdelivr.net/gh/ravenxrz/PicBed/img/Gmvvmvcc0DeK1ddzTU_16w" /></p>
+<p><strong>Rt会进行去重处理，只保留最旧的版本。</strong></p>
+</div>
+<div class="section" id="id9">
+<h2>1.10 如何手动更新？<a class="headerlink" href="#id9" title="永久链接至标题">¶</a></h2>
+<p>一般情况下，RT可直接热更新，但部分情况下可能会出现热更新失败。这时需要用户自行手动更新：</p>
+<p>打开蓝奏云：https://ravenxrz.lanzous.com/b01bezbcf</p>
+<p>下载最新版，如：</p>
+<p><img alt="img" src="https://cdn.jsdelivr.net/gh/ravenxrz/PicBed/img/fqM2fDx19ETpDdKg9cMNgg" /><img alt="img" src="https://docimg2.docs.qq.com/image/rDD7Rns8m8goCWxE5dJTVQ?w=968&amp;h=65" /></p>
+<p>最后全量替换到你之前的RT安装目录下即可。</p>
+</div>
+</div>
+<div class="section" id="id10">
+<h1>2. 私聊我<a class="headerlink" href="#id10" title="永久链接至标题">¶</a></h1>
+<p>如果至此，依然无法解决问题，请加群私聊我。</p>
+<p>QQ群号：118149802</p>
+<p>一般私聊我，我都会让你上传一个log文件，log文件路径为</p>
+<p>Win/Linux：</p>
+<p>RubberTranslator/log，会看到类似如下文件：</p>
+<p><img alt="img" src="https://cdn.jsdelivr.net/gh/ravenxrz/PicBed/img/jqNMPjSrO-ircWYAxpSYLw" /></p>
+<p>Mac:</p>
+<p>在用户目录/log下：</p>
+<p><img alt="img" src="https://docimg6.docs.qq.com/image/OcM1_U7tZfDxIcvyK8DkWQ?w=1378&amp;h=584" /></p>
+<p>选择当天日期的log文件发送给我。</p>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../changelogs/index.html" class="btn btn-neutral float-right" title="v3.4.1 for mac" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="../config/index.html" class="btn btn-neutral float-left" title="1. OCR" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; 版权所有 2021,ravenxrz.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

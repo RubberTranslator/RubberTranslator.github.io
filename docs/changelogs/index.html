@@ -1,0 +1,480 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="zh-CN" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>v3.4.1 for mac &mdash; RubberTranslator使用文档  文档</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/translations.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="索引" href="../genindex.html" />
+    <link rel="search" title="搜索" href="../search.html" />
+    <link rel="prev" title="1. 问题汇总" href="../faq/index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> RubberTranslator使用文档
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">序言</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../preface/index.html">一点体验</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../preface/index.html#id2">为何制作</a></li>
+</ul>
+<p class="caption"><span class="caption-text">功能介绍</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../features/index.html">0. 视频介绍</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../features/index.html#id2">1. 基础功能</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../features/index.html#id16">2. 高级设置</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../features/index.html#id22">3. 开源许可</a></li>
+</ul>
+<p class="caption"><span class="caption-text">使用配置</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../config/index.html">1. OCR</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../config/index.html#id1">2. 百度翻译配置</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../config/index.html#id2">3.  有道翻译配置</a></li>
+</ul>
+<p class="caption"><span class="caption-text">常见问题</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../faq/index.html">1. 问题汇总</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../faq/index.html#id10">2. 私聊我</a></li>
+</ul>
+<p class="caption"><span class="caption-text">更新日志</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">v3.4.1 for mac</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#v3-4-0">v3.4.0</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#v3-3-4">v3.3.4</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#v3-3-3">v3.3.3</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#v3-3-2-for-mac">v3.3.2 for mac</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#v3-3-2">v3.3.2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#v3-3-1">v3.3.1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#v3-2-1-for-linux">v3.2.1 for linux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#v3-2-1-beta">v3.2.1-beta</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#v3-2-0-beta">v3.2.0-beta</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#v3-1-0">v3.1.0</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#v3-0-1">v3.0.1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#v3-0-0">v3.0.0</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#v3-0-0-beta2">v3.0.0-beta2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#v3-0-0-beta1">v3.0.0-beta1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#v2-0-0">v2.0.0</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#v1-1-1">v1.1.1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#v1-1-0">v1.1.0</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#v1-0-0">v1.0.0</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#v0-2-0-pre-release">v0.2.0 pre-release</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#v0-1-0">v0.1.0</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">RubberTranslator使用文档</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>v3.4.1 for mac</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            
+              <a href="https://github.com/RubberTranslator/RubberTranslator.github.io/blob/master/docs_src/changelogs/index.md" class="fa fa-github"> Edit on GitHub</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="v3-4-1-for-mac">
+<h1>v3.4.1 for mac<a class="headerlink" href="#v3-4-1-for-mac" title="永久链接至标题">¶</a></h1>
+<p>2020-2-8</p>
+<ol class="simple">
+<li><p>删除jnativehook lib（该库会造成mac卡死)，改用simplenativehook，目前效果良好</p></li>
+</ol>
+</div>
+<div class="section" id="v3-4-0">
+<h1>v3.4.0<a class="headerlink" href="#v3-4-0" title="永久链接至标题">¶</a></h1>
+<p>2020-2-4</p>
+<p>与之前版本不兼容</p>
+<ol class="simple">
+<li><p>重构【热更新】逻辑，更新职责交予Main模块，避免Socket通信造成的端口冲突，读写卡顿</p></li>
+<li><p>优化性能</p></li>
+<li><p>由于和之前版本不兼容，创建了新的远端version文件</p></li>
+<li><p>新增【记录模式】，支持翻译历史导出</p></li>
+</ol>
+</div>
+<div class="section" id="v3-3-4">
+<h1>v3.3.4<a class="headerlink" href="#v3-3-4" title="永久链接至标题">¶</a></h1>
+<p>2020-2-2</p>
+<ol class="simple">
+<li><p>自实现【单实例】应用有bug（会导致Socket通信阻塞，原因未知），还原到junique库</p></li>
+<li><p>保留【接力翻译】, 所有翻译错误采用统一回馈</p></li>
+</ol>
+</div>
+<div class="section" id="v3-3-3">
+<h1>v3.3.3<a class="headerlink" href="#v3-3-3" title="永久链接至标题">¶</a></h1>
+<p>2020-1-30</p>
+<ol class="simple">
+<li><p>去掉Junique库，采用自实现的【单实例】应用。</p></li>
+<li><p>修复对比模式下增量翻译的重复翻译3次的bug</p></li>
+<li><p>增加翻译失败时的反馈</p></li>
+<li><p>增加Launcher的Socket延迟关闭机制，避免因为引入单实例而造成无法关闭的bug</p></li>
+</ol>
+</div>
+<div class="section" id="v3-3-2-for-mac">
+<h1>v3.3.2 for mac<a class="headerlink" href="#v3-3-2-for-mac" title="永久链接至标题">¶</a></h1>
+<p>2020-1-27</p>
+<ol class="simple">
+<li><p>新增mac版</p></li>
+</ol>
+</div>
+<div class="section" id="v3-3-2">
+<h1>v3.3.2<a class="headerlink" href="#v3-3-2" title="永久链接至标题">¶</a></h1>
+<p>2020-1-22</p>
+<ol class="simple">
+<li><p>兼容多个显示器位置记录</p></li>
+</ol>
+</div>
+<div class="section" id="v3-3-1">
+<h1>v3.3.1<a class="headerlink" href="#v3-3-1" title="永久链接至标题">¶</a></h1>
+<p>2020-1-22</p>
+<p>跳过v3.3.0</p>
+<ol class="simple">
+<li><p>新增窗口大小记录功能</p></li>
+<li><p>新增词组批量导入与导出功能</p></li>
+<li><p>json配置文件回写格式化</p></li>
+<li><p>修复OCR翻译bug</p></li>
+<li><p>修复Linux平台下打开FileChooser窗口crash的bug</p></li>
+<li><p>热更新通信改用Socket，原因：Linux下采用父子进程输入输出流会有一些扰乱输入。</p></li>
+</ol>
+</div>
+<div class="section" id="v3-2-1-for-linux">
+<h1>v3.2.1 for linux<a class="headerlink" href="#v3-2-1-for-linux" title="永久链接至标题">¶</a></h1>
+<p>2020-1-18</p>
+<ol class="simple">
+<li><p>去掉冗余代码</p></li>
+<li><p>初步测试通</p></li>
+<li><p>Linux版本发布</p></li>
+</ol>
+</div>
+<div class="section" id="v3-2-1-beta">
+<h1>v3.2.1-beta<a class="headerlink" href="#v3-2-1-beta" title="永久链接至标题">¶</a></h1>
+<p>2020-1-17</p>
+<ol class="simple">
+<li><p>修复无限递归翻译的bug</p></li>
+<li><p>修复重复翻译的bug</p></li>
+<li><p>api信息设置后立即生效，无需重启</p></li>
+</ol>
+</div>
+<div class="section" id="v3-2-0-beta">
+<h1>v3.2.0-beta<a class="headerlink" href="#v3-2-0-beta" title="永久链接至标题">¶</a></h1>
+<p>2021-1-5</p>
+<ol class="simple">
+<li><p>增加热更新</p></li>
+<li><p>减少压缩包大小</p></li>
+<li><p>增加帮助-version显示</p></li>
+</ol>
+</div>
+<div class="section" id="v3-1-0">
+<h1>v3.1.0<a class="headerlink" href="#v3-1-0" title="永久链接至标题">¶</a></h1>
+<p>2020-12-27</p>
+<ol class="simple">
+<li><p>增加文本区翻译位置选项；</p></li>
+<li><p>修复剪切板事件分发bug</p></li>
+<li><p>log文件自动删除</p></li>
+</ol>
+</div>
+<div class="section" id="v3-0-1">
+<h1>v3.0.1<a class="headerlink" href="#v3-0-1" title="永久链接至标题">¶</a></h1>
+<p>2020-12-25</p>
+<ol class="simple">
+<li><p>修复【自动更新】bug，避免一直弹窗</p></li>
+</ol>
+</div>
+<div class="section" id="v3-0-0">
+<h1>v3.0.0<a class="headerlink" href="#v3-0-0" title="永久链接至标题">¶</a></h1>
+<p>2020-12-24</p>
+<ol class="simple">
+<li><p>新增【自动更新】检测功能</p></li>
+<li><p>增添【对比模式】</p></li>
+<li><p>增添【CTRL+T】翻译快捷键</p></li>
+<li><p>Google翻译运行期加载【正则抓取模式】，降低Google翻译失效问题。</p></li>
+<li><p>修复部分bug</p></li>
+</ol>
+</div>
+<div class="section" id="v3-0-0-beta2">
+<h1>v3.0.0-beta2<a class="headerlink" href="#v3-0-0-beta2" title="永久链接至标题">¶</a></h1>
+<p>2020-12-23</p>
+<ol class="simple">
+<li><p>修复【剪切板监听】失灵bug</p></li>
+<li><p>新增【自动更新】检测功能</p></li>
+</ol>
+</div>
+<div class="section" id="v3-0-0-beta1">
+<h1>v3.0.0-beta1<a class="headerlink" href="#v3-0-0-beta1" title="永久链接至标题">¶</a></h1>
+<p>2020-12-22</p>
+<ol class="simple">
+<li><p>增添【对比模式】</p></li>
+<li><p>增添【CTRL+T】翻译快捷键</p></li>
+</ol>
+</div>
+<div class="section" id="v2-0-0">
+<h1>v2.0.0<a class="headerlink" href="#v2-0-0" title="永久链接至标题">¶</a></h1>
+<p>2020-12-17</p>
+<p>相比v1.1.1的变化：</p>
+<ol class="simple">
+<li><p>修复一些bug</p></li>
+<li><p>修复Google翻译失效问题</p></li>
+<li><p>修改配置文件存储目录，解决卸载不干净问题。</p></li>
+<li><p>兼容旧配置文件
+【后期计划】</p></li>
+<li><p>增加【自动升级】功能</p></li>
+<li><p>剥离翻译库，采用运行时自动加载</p></li>
+</ol>
+<p>v2.0.0-beta4</p>
+<p>2020-12-13</p>
+<ol class="simple">
+<li><p>修复bug：自动复制和自动粘贴的相互作用</p></li>
+<li><p>词组替换设定后立即生效</p></li>
+</ol>
+<p>v2.0.0-beta3</p>
+<p>2020-12-05</p>
+<ol class="simple">
+<li><p>修复翻译类型改变，但是配置未持久化导致每次重启应用都需要手动设置的bug</p></li>
+<li><p>修复Google翻译失效问题</p></li>
+<li><p>移除”隐匿“模式功能</p></li>
+<li><p>修改配置文件和日志保存目录为当前应用根目录，解决RubberTranslator-v2.0.0-beta2及其之前存在的卸载有残留问题</p></li>
+<li><p>此版本后，仅提供便携包，不提供安装包。</p></li>
+<li><p>新增版本编号，实现旧版本(v2.0.0之后）与新版本升级时的配置文件自动合并。避免每次都需要用户手动替换。</p></li>
+<li><p>解决C盘需要管理员权限问题</p></li>
+</ol>
+<p>v2.0.0-beta2</p>
+<p>2020-07-17</p>
+<ol class="simple">
+<li><p>修复“重复复制“的bug，降低内存占用。</p></li>
+<li><p>mvc转mvp，解耦合。</p></li>
+</ol>
+<p>v2.0.0-beta</p>
+<p>2020-07-16</p>
+<p>注意：之前安装过RubberTranslator的朋友，请首先卸载软件，并删除 C:\Users\用户名\RubberTranslator\config\configuration.json文件（删除前，请做好备份）</p>
+<ol class="simple">
+<li><p>新增“隐匿”模式，随点随译，随点随匿，增加论文阅读体验。</p></li>
+<li><p>新增窗口大小、位置记录功能。</p></li>
+<li><p>优化系统配置架构，方便扩展。</p></li>
+</ol>
+</div>
+<div class="section" id="v1-1-1">
+<h1>v1.1.1<a class="headerlink" href="#v1-1-1" title="永久链接至标题">¶</a></h1>
+<p>2020-05-21</p>
+<ol class="simple">
+<li><p>bug修复: focus模式下，置顶功能失效；</p></li>
+<li><p>bug修复: focus模式下，“复制译文”和“复制原文”触发重复翻译bug；</p></li>
+<li><p>新增功能: focus模式新增手动翻译；</p></li>
+<li><p>新增翻译过程反馈。</p></li>
+</ol>
+</div>
+<div class="section" id="v1-1-0">
+<h1>v1.1.0<a class="headerlink" href="#v1-1-0" title="永久链接至标题">¶</a></h1>
+<p>2020-05-20</p>
+<ol class="simple">
+<li><p>译文段落首行自动缩进</p></li>
+<li><p>新增有道查词功能</p></li>
+</ol>
+</div>
+<div class="section" id="v1-0-0">
+<h1>v1.0.0<a class="headerlink" href="#v1-0-0" title="永久链接至标题">¶</a></h1>
+<p>2020-05-19</p>
+<ol class="simple">
+<li><p>手动翻译</p></li>
+<li><p>支持谷歌、百度、有道三种翻译引擎</p></li>
+<li><p>文本格式化</p></li>
+<li><p>剪切板监听</p></li>
+<li><p>拖拽复制</p></li>
+<li><p>自动复制</p></li>
+<li><p>自动粘贴</p></li>
+<li><p>增量复制</p></li>
+<li><p>OCR翻译</p></li>
+<li><p>历史记录</p></li>
+<li><p>专注模式</p></li>
+<li><p>翻译接力</p></li>
+<li><p>过滤器</p></li>
+<li><p>翻译文本替换</p></li>
+<li><p>自定义样式</p></li>
+</ol>
+</div>
+<div class="section" id="v0-2-0-pre-release">
+<h1>v0.2.0 pre-release<a class="headerlink" href="#v0-2-0-pre-release" title="永久链接至标题">¶</a></h1>
+<p>2020-05-17</p>
+<ol class="simple">
+<li><p>新增自动检测源语言</p></li>
+<li><p>增加“接力翻译”功能，当前翻译引擎失效时，自动选择下一个翻译引擎</p></li>
+<li><p>修复几个bug</p></li>
+</ol>
+</div>
+<div class="section" id="v0-1-0">
+<h1>v0.1.0<a class="headerlink" href="#v0-1-0" title="永久链接至标题">¶</a></h1>
+<p>2020-05-16</p>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../faq/index.html" class="btn btn-neutral float-left" title="1. 问题汇总" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; 版权所有 2021,ravenxrz.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
