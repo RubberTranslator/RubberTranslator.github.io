@@ -113,12 +113,13 @@
 <li class="toctree-l2"><a class="reference internal" href="#ocr">1.5 截图了，为什么OCR没反应？</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#id5">1.6 为什么不能使用百度翻译和有道翻译？</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#id6">1.7 谷歌翻译无法使用？</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#id7">1.8 如何设置字体大小，背景颜色？</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#id8">1.9 如何批量导入词组？</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#id9">1.10 如何手动更新？</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id7">1.8 为什么完全无法翻译?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id8">1.9 如何设置字体大小，背景颜色？</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id9">1.10 如何批量导入词组？</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id10">1.12 如何手动更新？</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="#id10">2. 私聊我</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#id11">2. 私聊我</a></li>
 </ul>
 <p class="caption"><span class="caption-text">更新日志</span></p>
 <ul>
@@ -259,20 +260,24 @@
 </div>
 <div class="section" id="ocr">
 <h2>1.5 截图了，为什么OCR没反应？<a class="headerlink" href="#ocr" title="永久链接至标题">¶</a></h2>
-<p>OCR需要自己手动配置，具体请参考：https://www.ravenxrz.ink/archives/2d8a0c3e.html</p>
+<p>OCR需要自己手动配置，具体请参考：<a class="reference external" href="https://rubbertranslator.github.io/docs/config/index.html">这里</a></p>
 <p>如果成功配置，在高级设置-&gt;Key&amp;Secert设置-&gt;OCR中可以看到类似如图的界面：</p>
 <p><img alt="img" src="https://cdn.jsdelivr.net/gh/ravenxrz/PicBed/img/N-4dcv75fhRd_QKsbbi-sg" /></p>
 </div>
 <div class="section" id="id5">
 <h2>1.6 为什么不能使用百度翻译和有道翻译？<a class="headerlink" href="#id5" title="永久链接至标题">¶</a></h2>
-<p>百度翻译和有道翻译需要自己手动配置，具体请参考：https://www.ravenxrz.ink/archives/2d8a0c3e.html</p>
+<p>百度翻译和有道翻译需要自己手动配置，具体请参考：<a class="reference external" href="https://rubbertranslator.github.io/docs/config/index.html">这里</a></p>
 </div>
 <div class="section" id="id6">
 <h2>1.7 谷歌翻译无法使用？<a class="headerlink" href="#id6" title="永久链接至标题">¶</a></h2>
 <p>有极少数同学会出现无法使用谷歌翻译，这种情况一般是因为你所在的校园网络无法访问谷歌翻译。打开浏览器，访问 <a class="reference external" href="https://translate.google.cn/">https://translate.google.cn/ </a> ，如果不能打开，说明你的网络无法确实无法访问。解决方法为切换电脑网络，如开手机热点给笔记本电脑使用。或者手动配置百度翻译或者有道翻译。</p>
 </div>
 <div class="section" id="id7">
-<h2>1.8 如何设置字体大小，背景颜色？<a class="headerlink" href="#id7" title="永久链接至标题">¶</a></h2>
+<h2>1.8 为什么完全无法翻译?<a class="headerlink" href="#id7" title="永久链接至标题">¶</a></h2>
+<p>这个问题是1.6+1.7问题的合并，即你没有配置百度和有道，同时谷歌翻译也被禁用了。</p>
+</div>
+<div class="section" id="id8">
+<h2>1.9 如何设置字体大小，背景颜色？<a class="headerlink" href="#id8" title="永久链接至标题">¶</a></h2>
 <p>设置字体大小略微复杂，首先在RubberTranslator/config目录下新建style.css文件，打开该文件，填入：</p>
 <div class="highlight-css notranslate"><div class="highlight"><pre><span></span><span class="p">#</span><span class="nn">main</span> <span class="p">{</span>	
 	<span class="c">/* 主界面相关设置 */</span>
@@ -303,8 +308,8 @@
 <p>修改相应的font-size, 打开RubberTranslator，高级设置-&gt;自定义样式，在弹出的选择框中选择刚才新建的style.css文件。 最后重启软件即可。</p>
 <p><strong>注意：每次修改style.css文件后，都需要重启软件； v3.2.1及其之前版本不支持compare标识修改；</strong></p>
 </div>
-<div class="section" id="id8">
-<h2>1.9 如何批量导入词组？<a class="headerlink" href="#id8" title="永久链接至标题">¶</a></h2>
+<div class="section" id="id9">
+<h2>1.10 如何批量导入词组？<a class="headerlink" href="#id9" title="永久链接至标题">¶</a></h2>
 <p>如果你有大量词组需要导入，一条条输入是非常慢的，此时可以使用 “批量导入” 功能，如下：</p>
 <p><img alt="img" src="https://cdn.jsdelivr.net/gh/ravenxrz/PicBed/img/2oDX9LBI7mTbYwYES27m4g" /></p>
 <p>选中一个 txt 文件，这个 txt 文件存放的就是你的词组文件，具体格式为：</p>
@@ -314,8 +319,8 @@
 <p>另外，如果重复选择一个 txt 文件，添加可能会看到重复行，如：<img alt="img" src="https://cdn.jsdelivr.net/gh/ravenxrz/PicBed/img/Gmvvmvcc0DeK1ddzTU_16w" /></p>
 <p><strong>Rt会进行去重处理，只保留最旧的版本。</strong></p>
 </div>
-<div class="section" id="id9">
-<h2>1.10 如何手动更新？<a class="headerlink" href="#id9" title="永久链接至标题">¶</a></h2>
+<div class="section" id="id10">
+<h2>1.12 如何手动更新？<a class="headerlink" href="#id10" title="永久链接至标题">¶</a></h2>
 <p>一般情况下，RT可直接热更新，但部分情况下可能会出现热更新失败。这时需要用户自行手动更新：</p>
 <p>打开蓝奏云：https://ravenxrz.lanzous.com/b01bezbcf</p>
 <p>下载最新版，如：</p>
@@ -323,8 +328,8 @@
 <p>最后全量替换到你之前的RT安装目录下即可。</p>
 </div>
 </div>
-<div class="section" id="id10">
-<h1>2. 私聊我<a class="headerlink" href="#id10" title="永久链接至标题">¶</a></h1>
+<div class="section" id="id11">
+<h1>2. 私聊我<a class="headerlink" href="#id11" title="永久链接至标题">¶</a></h1>
 <p>如果至此，依然无法解决问题，请加群私聊我。</p>
 <p>QQ群号：118149802</p>
 <p>一般私聊我，我都会让你上传一个log文件，log文件路径为</p>

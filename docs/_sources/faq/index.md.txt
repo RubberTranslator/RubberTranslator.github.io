@@ -70,7 +70,7 @@ mac用户推荐使用snipaste，如果使用QQ截图，可能会出现 #fffxxx�
 
 ### 1.5 截图了，为什么OCR没反应？
 
-OCR需要自己手动配置，具体请参考：https://www.ravenxrz.ink/archives/2d8a0c3e.html
+OCR需要自己手动配置，具体请参考：[这里](https://rubbertranslator.github.io/docs/config/index.html)
 
 如果成功配置，在高级设置->Key&Secert设置->OCR中可以看到类似如图的界面：
 
@@ -78,13 +78,18 @@ OCR需要自己手动配置，具体请参考：https://www.ravenxrz.ink/archive
 
 ### 1.6 为什么不能使用百度翻译和有道翻译？
 
-百度翻译和有道翻译需要自己手动配置，具体请参考：https://www.ravenxrz.ink/archives/2d8a0c3e.html
+百度翻译和有道翻译需要自己手动配置，具体请参考：[这里](https://rubbertranslator.github.io/docs/config/index.html)
 
 ### 1.7 谷歌翻译无法使用？
 
 有极少数同学会出现无法使用谷歌翻译，这种情况一般是因为你所在的校园网络无法访问谷歌翻译。打开浏览器，访问 [https://translate.google.cn/ ](https://translate.google.cn/) ，如果不能打开，说明你的网络无法确实无法访问。解决方法为切换电脑网络，如开手机热点给笔记本电脑使用。或者手动配置百度翻译或者有道翻译。
 
-### 1.8 如何设置字体大小，背景颜色？
+### 1.8 为什么完全无法翻译?
+
+这个问题是1.6+1.7问题的合并，即你没有配置百度和有道，同时谷歌翻译也被禁用了。
+
+
+### 1.9 如何设置字体大小，背景颜色？
 
 设置字体大小略微复杂，首先在RubberTranslator/config目录下新建style.css文件，打开该文件，填入：
 
@@ -123,7 +128,7 @@ OCR需要自己手动配置，具体请参考：https://www.ravenxrz.ink/archive
 
 **注意：每次修改style.css文件后，都需要重启软件； v3.2.1及其之前版本不支持compare标识修改；**
 
-### 1.9 如何批量导入词组？
+### 1.10 如何批量导入词组？
 
 如果你有大量词组需要导入，一条条输入是非常慢的，此时可以使用 “批量导入” 功能，如下：
 
@@ -141,7 +146,7 @@ OCR需要自己手动配置，具体请参考：https://www.ravenxrz.ink/archive
 
 **Rt会进行去重处理，只保留最旧的版本。**
 
-### 1.10 如何手动更新？
+### 1.12 如何手动更新？
 
 一般情况下，RT可直接热更新，但部分情况下可能会出现热更新失败。这时需要用户自行手动更新：
 
