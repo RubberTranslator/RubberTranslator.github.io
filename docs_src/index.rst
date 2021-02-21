@@ -2,11 +2,6 @@
 
 RubberTranslator使用文档
 ======================================================
-.. toctree::
-   :maxdepth: 1
-   :caption: 序言
-
-   preface/index
 
 .. toctree::
    :maxdepth: 1
