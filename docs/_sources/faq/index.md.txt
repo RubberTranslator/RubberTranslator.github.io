@@ -91,22 +91,19 @@ OCR需要自己手动配置，具体请参考：[这里](https://rubbertranslato
 
 ### 1.9 如何设置字体大小，背景颜色？
 
+**从v3.6.0开始** 
+已支持GUI方式字体大小更改，目前暂不支持背景颜色更改。
+
+通过高级设置->界面设置即可设置。
+> Linux用户注意：部分Linux桌面环境可能会出现设置界面打不开，此时也可手动修改json配置下的 app_font_size 和 text_font_size 两个字段。
+
+**v3.6.0 之前 (不包括v3.6.0)**
+支持字体更改和背景颜色更改等。
 设置字体大小略微复杂，首先在RubberTranslator/config目录下新建style.css文件，打开该文件，填入：
 
 ```css
-#main {	
-	/* 主界面相关设置 */
-    -fx-font-size: 10pt;
-}
-
-#focus{
-	/* 专注界面相关设置 */
-	-fx-font-size: 10pt;
-}
-
-#compare{
-	/* 对比界面相关设置 */
-	-fx-font-size: 10pt;
+.root{
+	/* -fx-font-size: 10pt; */	
 }
 
 .text-area {
@@ -119,10 +116,6 @@ OCR需要自己手动配置，具体请参考：[这里](https://rubbertranslato
     /* -fx-background-color: rgb(199,237,204); */
 }
 ```
-
-
-
-
 
 修改相应的font-size, 打开RubberTranslator，高级设置->自定义样式，在弹出的选择框中选择刚才新建的style.css文件。 最后重启软件即可。
 

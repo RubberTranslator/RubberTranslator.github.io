@@ -277,20 +277,17 @@
 </div>
 <div class="section" id="id8">
 <h2>1.9 如何设置字体大小，背景颜色？<a class="headerlink" href="#id8" title="永久链接至标题">¶</a></h2>
-<p>设置字体大小略微复杂，首先在RubberTranslator/config目录下新建style.css文件，打开该文件，填入：</p>
-<div class="highlight-css notranslate"><div class="highlight"><pre><span></span><span class="p">#</span><span class="nn">main</span> <span class="p">{</span>	
-	<span class="c">/* 主界面相关设置 */</span>
-    <span class="nv">-fx-font-size</span><span class="p">:</span> <span class="mi">10</span><span class="kt">pt</span><span class="p">;</span>
-<span class="p">}</span>
-
-<span class="p">#</span><span class="nn">focus</span><span class="p">{</span>
-	<span class="c">/* 专注界面相关设置 */</span>
-	<span class="nv">-fx-font-size</span><span class="p">:</span> <span class="mi">10</span><span class="kt">pt</span><span class="p">;</span>
-<span class="p">}</span>
-
-<span class="p">#</span><span class="nn">compare</span><span class="p">{</span>
-	<span class="c">/* 对比界面相关设置 */</span>
-	<span class="nv">-fx-font-size</span><span class="p">:</span> <span class="mi">10</span><span class="kt">pt</span><span class="p">;</span>
+<p><strong>从v3.6.0开始</strong>
+已支持GUI方式字体大小更改，目前暂不支持背景颜色更改。</p>
+<p>通过高级设置-&gt;界面设置即可设置。</p>
+<blockquote>
+<div><p>Linux用户注意：部分Linux桌面环境可能会出现设置界面打不开，此时也可手动修改json配置下的 app_font_size 和 text_font_size 两个字段。</p>
+</div></blockquote>
+<p><strong>v3.6.0 之前 (不包括v3.6.0)</strong>
+支持字体更改和背景颜色更改等。
+设置字体大小略微复杂，首先在RubberTranslator/config目录下新建style.css文件，打开该文件，填入：</p>
+<div class="highlight-css notranslate"><div class="highlight"><pre><span></span><span class="p">.</span><span class="nc">root</span><span class="p">{</span>
+	<span class="c">/* -fx-font-size: 10pt; */</span>	
 <span class="p">}</span>
 
 <span class="p">.</span><span class="nc">text-area</span> <span class="p">{</span>
