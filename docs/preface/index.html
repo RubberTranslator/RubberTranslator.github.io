@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>一点体验 &mdash; RubberTranslator使用文档  文档</title>
+  <title>一点想说的 &mdash; RubberTranslator使用文档  文档</title>
   
 
   
@@ -38,7 +38,9 @@
 
     
     <link rel="index" title="索引" href="../genindex.html" />
-    <link rel="search" title="搜索" href="../search.html" /> 
+    <link rel="search" title="搜索" href="../search.html" />
+    <link rel="next" title="0. 视频介绍" href="../features/index.html" />
+    <link rel="prev" title="RubberTranslator使用文档" href="../index.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -83,7 +85,11 @@
               
             
             
-              <p class="caption"><span class="caption-text">功能介绍</span></p>
+              <p class="caption"><span class="caption-text">序言</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">一点想说的</a></li>
+</ul>
+<p class="caption"><span class="caption-text">功能介绍</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../features/index.html">0. 视频介绍</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../features/index.html#id2">1. 基础功能</a></li>
@@ -103,8 +109,7 @@
 </ul>
 <p class="caption"><span class="caption-text">更新日志</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../changelogs/index.html">v.3.6.2</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../changelogs/index.html#v3-6-1">v3.6.1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../changelogs/index.html">v3.6.1</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../changelogs/index.html#v3-6-0">v3.6.0</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../changelogs/index.html#v3-5-1">v3.5.1</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../changelogs/index.html#v3-5-0">v3.5.0</a></li>
@@ -177,7 +182,7 @@
     
       <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
         
-      <li>一点体验</li>
+      <li>一点想说的</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -199,22 +204,19 @@
            <div itemprop="articleBody">
             
   <div class="section" id="id1">
-<h1>一点体验<a class="headerlink" href="#id1" title="永久链接至标题">¶</a></h1>
-<p>目前比较好用的文献辅助翻译软件有知云文翻译和CopyTranslator, 简单说下个人感受：</p>
-<ul class="simple">
-<li><p>知云限制了pdf软件的使用，且只能翻译文档。 于我个人而言，知云的pdf软件体验并不好，于是体验过一两天就直接放弃了。</p></li>
-<li><p>CopyTranslator非常符合我个人的使用需求，而且也是开源免费的（点赞）。不过早期它的【拖拽翻译】不太好用，而这个功能对于我来说是刚需。</p></li>
-</ul>
-</div>
-<div class="section" id="id2">
-<h1>为何制作<a class="headerlink" href="#id2" title="永久链接至标题">¶</a></h1>
-<p>简单说有两个原因：</p>
-<ol class="simple">
-<li><p>个人没有学习过CopyTranslator的开发语言TypeScript，所以无法向其添加新功能，也无法修复【拖拽翻译】的问题。</p></li>
-<li><p>2020年突如其来的疫情，导致我闲在家中很长一段时间，所以想做点东西充实一下自己。</p></li>
-</ol>
-<p>ravenxrz</p>
-<p>2021年2月 重庆</p>
+<h1>一点想说的<a class="headerlink" href="#id1" title="永久链接至标题">¶</a></h1>
+<p>RubberTranslator是一款人性化的辅助翻译软件，尝试解决翻译过程中的一些痛点问题，相信能为你带来更好的翻译体验。</p>
+<blockquote>
+<div><p>市面上已经很多翻译软件，为什么还要制作RubberTranslator?</p>
+</div></blockquote>
+<p>结合我个人的翻译经历简单说说：</p>
+<p>传统的有道翻译、百度翻译、谷歌翻译等翻译网站（软件）只能说具有基础的翻译功能，缺失了很多有用功能，比如无法有效地去掉pdf文档中的换行符。后来我使用过知云翻译和CopyTranslator，前者需要绑定pdf软件使用，而我有个人喜欢的pdf软件，所以直接pass掉了; CopyTranslator是我最喜欢的翻译软件，然而早期版本的【拖拽复制】存在bug，可惜我不会TypeScript(CopyTranslator的开发语言)，为了解决这个问题，我制作了RT的前身<a class="reference external" href="https://github.com/ravenxrz/CopyActionDaemon">CopyActionDeamon</a>。在后续的使用过程中，逐渐想加上自己想要的功能，加上疫情期间有足够的时间，索性就从零构建了，也就有了今天的RubberTranslator。</p>
+<blockquote>
+<div><p>RubberTranslator会收费吗？</p>
+</div></blockquote>
+<p>RubberTranslator是永久开源免费的，收费代表了责任，我并不想限制自己。</p>
+<p>兴锐</p>
+<p>2021年2月凌晨 重庆</p>
 </div>
 
 
@@ -222,6 +224,10 @@
            
           </div>
           <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../features/index.html" class="btn btn-neutral float-right" title="0. 视频介绍" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="../index.html" class="btn btn-neutral float-left" title="RubberTranslator使用文档" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
 
   <hr/>
 
