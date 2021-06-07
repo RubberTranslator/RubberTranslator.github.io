@@ -1,15 +1,15 @@
 ## 0. 视频介绍
+
 <iframe id="spkj" src="//player.bilibili.com/player.html?aid=800861081&bvid=BV1Wy4y1e7HG&cid=271513284&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width=100%> </iframe>
 <script type="text/javascript">  
 document.getElementById("spkj").style.height=document.getElementById("spkj").scrollWidth*0.76+"px";
 </script>
 
-
 ## 1. 基础功能
 
 ### 1.1 手动翻译
 
-作为翻译软件最基础的功能，RubberTranslator也是支持手动翻译的，如：
+作为翻译软件最基础的功能，RubberTranslator 也是支持手动翻译的，如：
 
 <img src="https://cdn.jsdelivr.net/gh/ravenxrz/PicBed/img/oRsHcgsqvQ.gif" style="zoom: 80%;" />
 
@@ -17,21 +17,21 @@ document.getElementById("spkj").style.height=document.getElementById("spkj").scr
 
 <img src="https://cdn.jsdelivr.net/gh/ravenxrz/PicBed/img/S24b0bnOaP.gif" style="zoom: 80%;" />
 
-默认支持，谷歌翻译，百度翻译和有道翻译。（百度和有道翻译需要配置API信息才可以使用，详情可参看：[ocr,百度，有道配置](https://github.com/ravenxrz/RubberTranslator/wiki/OCR%EF%BC%8C%E7%99%BE%E5%BA%A6%E5%92%8C%E6%9C%89%E9%81%93%E9%85%8D%E7%BD%AE)
+默认支持，谷歌翻译，百度翻译和有道翻译。（百度和有道翻译需要配置 API 信息才可以使用，详情可参看：[ocr,百度，有道配置](https://github.com/ravenxrz/RubberTranslator/wiki/OCR%EF%BC%8C%E7%99%BE%E5%BA%A6%E5%92%8C%E6%9C%89%E9%81%93%E9%85%8D%E7%BD%AE)
 
 ### 1.3 文本格式化
 
-文本格式化是用来做什么的呢？我们平常在阅读pdf文档的时候，经常有这样的一个问题，从pdf中拷贝的文本粘贴到其它地方会多出很多换行，如：
+文本格式化是用来做什么的呢？我们平常在阅读 pdf 文档的时候，经常有这样的一个问题，从 pdf 中拷贝的文本粘贴到其它地方会多出很多换行，如：
 
 <img src="https://cdn.jsdelivr.net/gh/ravenxrz/PicBed/img/image-20200515203036559.png" style="zoom:80%;" />
 
-可以看到，因为多出很多空行，翻译会变得非常的不准确，一般来说，我们会手动替换掉所有的换行符，RubberTranslator默认开启”文本格式化“功能，可以用来解决问题，在替换掉换行符的同时，**尽量保持分段格式**，功能展示：
+可以看到，因为多出很多空行，翻译会变得非常的不准确，一般来说，我们会手动替换掉所有的换行符，RubberTranslator 默认开启”文本格式化“功能，可以用来解决问题，在替换掉换行符的同时，**尽量保持分段格式**，功能展示：
 
 <img src="https://cdn.jsdelivr.net/gh/ravenxrz/PicBed/img/HpgwWgEwNd.gif" style="zoom:80%;" />
 
 ### 1.4 监听剪切板
 
-开启监听剪切板功能，只要PC剪贴板中有新文本或图片时，RubberTranslator会自动翻译，也就是说只要有”复制“(Ctrl+C或鼠标复制）动作，RubberTranslator就会复制。如：
+开启监听剪切板功能，只要 PC 剪贴板中有新文本或图片时，RubberTranslator 会自动翻译，也就是说只要有”复制“(Ctrl+C 或鼠标复制）动作，RubberTranslator 就会复制。如：
 
 <img src="https://cdn.jsdelivr.net/gh/ravenxrz/PicBed/img/iasVDY9BIQ.gif" style="zoom:80%;" />
 
@@ -54,9 +54,9 @@ document.getElementById("spkj").style.height=document.getElementById("spkj").scr
 
 ### 1.6 自动复制
 
-自动复制用于自动复制译文，RubberTranslator在翻译完一段文本后，会自动将文本放入到系统剪切板中，此时用户通过”粘贴“功能即可在任何地方输入译文了。演示：
+自动复制用于自动复制译文，RubberTranslator 在翻译完一段文本后，会自动将译文文本放入到系统剪切板中，此时用户通过"粘贴"功能即可在任何地方输入译文了。
 
-![](https://pic.downk.cc/item/5ebf5073c2a9a83be588af19.gif)
+> tips: v3.6.3 后，可自动复制 OCR 原文，使用方法为，将"翻译引擎"改为"none"即可。
 
 ### 1.7 自动粘贴
 
@@ -70,17 +70,17 @@ document.getElementById("spkj").style.height=document.getElementById("spkj").scr
 
 <img src="https://cdn.jsdelivr.net/gh/ravenxrz/PicBed/img/AncXUT56Pq.gif" style="zoom:80%;" />
 
-### 1.9 OCR翻译
+### 1.9 OCR 翻译
 
-对于一些无法复制的pdf文本，可以通过ocr进行翻译，如：
+对于一些无法复制的 pdf 文本，可以通过 ocr 进行翻译，如：
 
 <img src="https://cdn.jsdelivr.net/gh/ravenxrz/PicBed/img/vI26MTVGa3.gif" style="zoom:80%;" />
 
-ocr功能需要配置百度ocr api key。[ocr,百度，有道配置](https://github.com/ravenxrz/RubberTranslator/wiki/OCR%EF%BC%8C%E7%99%BE%E5%BA%A6%E5%92%8C%E6%9C%89%E9%81%93%E9%85%8D%E7%BD%AE)
+ocr 功能需要配置百度 ocr api key。[ocr,百度，有道配置](https://github.com/ravenxrz/RubberTranslator/wiki/OCR%EF%BC%8C%E7%99%BE%E5%BA%A6%E5%92%8C%E6%9C%89%E9%81%93%E9%85%8D%E7%BD%AE)
 
 ### 1.10 历史记录
 
-RubberTranslation也支持历史记录。
+RubberTranslation 也支持历史记录。
 
 ### 1.11 专注模式
 
@@ -102,23 +102,23 @@ RubberTranslation也支持历史记录。
 
 ### 1.14 翻译接力
 
-一直使用同一个翻译引擎时，可能会出现翻译失败的情况，在这种情况下，RubberTranslato会自动选择下一个翻译引擎进行翻译。
+一直使用同一个翻译引擎时，可能会出现翻译失败的情况，在这种情况下，RubberTranslato 会自动选择下一个翻译引擎进行翻译。
 
 ## 2. 高级设置
 
 ### 1. 过滤器
 
-此功能暂时仅限Widnows平台。
+此功能暂时仅限 Widnows 平台。
 
 过滤器用于设置不需要进行复制翻译的程序，考虑一个场景，在看论文时，我们需要在浏览器中搜寻一些资料，但是我们并不需要自动翻译浏览器中的内容，这时就可以将浏览器加入我们的过滤名单中。
 
-操作：高级设置->过滤器,点击添加，找到浏览器的exe文件(快捷方式也可以）即可：
+操作：高级设置->过滤器,点击添加，找到浏览器的 exe 文件(快捷方式也可以）即可：
 
 <img src="https://cdn.jsdelivr.net/gh/ravenxrz/PicBed/img/image-20200515211034440.png" style="zoom:80%;" />
 
 ### 2. 翻译文本替换
 
-这个功能用于将译文中的特定词组替换为自己想要的词组，可以用于替换为专有名词。举个例子，在计算机数据结构或算法上，有一个术语叫做binary search，一般中文称为二分查找，而使用翻译引擎翻译，则会被翻译为二进制搜索，这让人非常的别扭。通过”翻译文本替换“功能，我们可以还原为二分查找。
+这个功能用于将译文中的特定词组替换为自己想要的词组，可以用于替换为专有名词。举个例子，在计算机数据结构或算法上，有一个术语叫做 binary search，一般中文称为二分查找，而使用翻译引擎翻译，则会被翻译为二进制搜索，这让人非常的别扭。通过”翻译文本替换“功能，我们可以还原为二分查找。
 
 先看，没有添加词组前：
 
@@ -128,7 +128,7 @@ RubberTranslation也支持历史记录。
 
 <img src="https://cdn.jsdelivr.net/gh/ravenxrz/PicBed/img/MD3Q6XYcnu.gif" style="zoom:80%;" />
 
-**支持java正则表达式。**
+**支持 java 正则表达式。**
 
 ### 3. 翻译文本批量导入
 
@@ -136,7 +136,7 @@ RubberTranslation也支持历史记录。
 
 <img src="https://cdn.jsdelivr.net/gh/ravenxrz/PicBed/img/image-20210122095723696.png" alt="image-20210122095723696" style="zoom:67%;" />
 
-选中一个txt文件，这个txt文件存放的就是你的词组文件，具体格式为：
+选中一个 txt 文件，这个 txt 文件存放的就是你的词组文件，具体格式为：
 
 ```
 译文：替换为
@@ -148,13 +148,13 @@ RubberTranslation也支持历史记录。
 
 <img src="https://cdn.jsdelivr.net/gh/ravenxrz/PicBed/img/image-20210122095855003.png" alt="image-20210122095855003" style="zoom: 67%;" />
 
-代表两个词组，将缓存线替换为cacheline, 将商店替换为store。
+代表两个词组，将缓存线替换为 cacheline, 将商店替换为 store。
 
-另外，如果重复选择一个txt文件，添加可能会看到重复行，如：
+另外，如果重复选择一个 txt 文件，添加可能会看到重复行，如：
 
 <img src="https://img.imgdb.cn/item/600a32133ffa7d37b3e4c0c6.png" alt="image-20210122100023609" style="zoom: 67%;" />
 
-**RubberTranslator只会选择其中一组保存。**
+**RubberTranslator 只会选择其中一组保存。**
 
 ### 4. 历史记录数量设置
 
@@ -162,33 +162,31 @@ RubberTranslation也支持历史记录。
 
 ### ~~5. 自定义样式~~
 
-**自v3.6.0 开始，取消本功能。** 改用GUI设置。
+**自 v3.6.0 开始，取消本功能。** 改用 GUI 设置。
 
-~~RubberTranslator支持自定义css样式。 如，设置护眼模式，更改字体大小的css：~~
+~~RubberTranslator 支持自定义 css 样式。 如，设置护眼模式，更改字体大小的 css：~~
 
 ```css
 #main {
-    /* 主模式 */
-    -fx-font-size: 10pt;
+  /* 主模式 */
+  -fx-font-size: 10pt;
 }
 
-#focus{
-    /* 专注模式 */
+#focus {
+  /* 专注模式 */
 }
 
-#compare{
-    /* 对比模式 */
+#compare {
+  /* 对比模式 */
 }
 
 .text-area {
-	-fx-font-size: 10pt;
+  -fx-font-size: 10pt;
 }
 
-.text-area .content{
-    -fx-background-color: rgb(199,237,204);
+.text-area .content {
+  -fx-background-color: rgb(199, 237, 204);
 }
-
-
 ```
 
 效果：
@@ -199,11 +197,10 @@ RubberTranslation也支持历史记录。
 
 [javafx css](https://docs.oracle.com/javafx/2/api/javafx/scene/doc-files/cssref.html)
 
-### 6. OCR 百度和有道APi设置
+### 6. OCR 百度和有道 APi 设置
 
 [ocr,百度，有道配置](https://rubbertranslator.github.io/docs/config/index.html)
 
 ## 3. 开源许可
 
 GPL v3.0
-
